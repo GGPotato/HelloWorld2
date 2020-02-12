@@ -6,6 +6,7 @@ class Hello{
 		 DateTimeFormatter dtf = DateTimeFormatter.ofPattern("yyyy/MM/dd HH:mm:ss");  
 		   LocalDateTime now = LocalDateTime.now();  
 		   System.out.println(dtf.format(now));  
+		   System.out.println(Runtime.getRuntime().freeMemory());
 		//added the two comments to the master branch but end to make a new branch and add them that way
 		System.out.println("Hello World");
 
